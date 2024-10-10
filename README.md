@@ -1,3 +1,1 @@
-<center>
-# **Recursos Sobre VPS**
-</center>
+<h1 align="center"><strong>Recursos Para VPS</strong></h1>
