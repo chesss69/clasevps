@@ -19,6 +19,6 @@
       </li>
     </ul>
   </li>
-    <li><a target="_blank" href="https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-22-04">INSTALAR NGINX</a></li>
-  
+  <li><a target="_blank" href="https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-22-04">INSTALAR NGINX</a></li>
+  <li><a target="_blank" href="https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-ubuntu-22-04">INSTALAR MYSQL</a></li>
 </u>
