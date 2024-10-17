@@ -55,7 +55,7 @@
         <pre><code>sudo apt install php8.2 php8.2-cli php8.2-fpm</code></pre>
       </li>
       <li>Instalar extensiones de php:
-        <pre><code>sudo apt install php-mysql php-mbstring php-xml php-bcmath php-curl</code></pre>
+        <pre><code>sudo apt install php8.2-mysql php8.2-mbstring php8.2-xml php8.2-bcmath php8.2-curl</code></pre>
         <pre><code>sudo apt-get install php8.2-xml</code></pre>
       </li>
     </ul>
