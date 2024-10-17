@@ -21,4 +21,24 @@
   </li>
   <li><a target="_blank" href="https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-22-04">INSTALAR NGINX</a></li>
   <li><a target="_blank" href="https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-ubuntu-22-04">INSTALAR MARIADB</a></li>
+  <li>
+    <strong>Habilitar acceso remoto Mariadb</strong>
+    <ul>
+      <li>Agregar el puerto 3306 al firewall:
+        <pre><code>sudo ufw allow 3306</code></pre>
+      </li>
+      <li>Reiniciar el firewall:
+        <pre><code>sudo ufw reload</code></pre>
+      </li>
+      <li>Editar Configuracion de MARIADB:
+        <pre><code>sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf</code></pre>
+      </li>
+      <li>Buscar la lines bind-address y modificarla:
+        <pre><code>bind-address = 0.0.0.0</code></pre>
+      </li>
+      <li>Reiniciar el servicio de MariaDB:
+        <pre><code>sudo systemctl restart mariadb</code></pre>
+      </li>
+    </ul>
+  </li>
 </u>
