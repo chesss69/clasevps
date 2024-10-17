@@ -2,7 +2,7 @@ server {
     listen 80;
     listen (tuip):80;
     server_name tudominio.com (borrar si no tienes);
-    root /var/www/tuproyecto;
+    root /var/www/tuproyecto/public;
 
     add_header X-Frame-Options "SAMEORIGIN";
     add_header X-Content-Type-Options "nosniff";
