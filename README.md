@@ -59,4 +59,11 @@
       </li>
     </ul>
   </li>
+  <ul>
+    <li>Dar permisos a las carpetas del proyecto que van a crear o modificar archivos:
+      <pre><code>sudo chown -R www-data:www-data /var/www/tuproyecto/storage</code></pre>
+      <pre><code>sudo chown -R www-data:www-data /var/www/tuproyecto/bootstrap/cache</code></pre>
+    </li>
+  </ul>
+  
 </u>
