@@ -56,6 +56,7 @@
       </li>
       <li>Instalar extensiones de php:
         <pre><code>sudo apt install php-mysql php-mbstring php-xml php-bcmath php-curl</code></pre>
+        <pre><code>sudo apt-get install php8.2-xml</code></pre>
       </li>
     </ul>
   </li>
