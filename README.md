@@ -41,4 +41,22 @@
       </li>
     </ul>
   </li>
+  <li>
+    <strong>Instalar Php y sus extensiones</strong>
+    <ul>
+      <li>Instalar Software Properties common:
+        <pre><code>sudo apt install software-properties-common</code></pre>
+      </li>
+      <li>Agregar el repositorio:
+        <pre><code>sudo add-apt-repository ppa:ondrej/php</code></pre>
+        <pre><code>sudo apt update</code></pre>
+      </li>
+      <li>Instalar el core de php:
+        <pre><code>sudo apt install php8.2 php8.2-cli php8.2-fpm</code></pre>
+      </li>
+      <li>Instalar extensiones de php:
+        <pre><code>sudo apt install php-mysql php-mbstring php-xml php-bcmath php-curl</code></pre>
+      </li>
+    </ul>
+  </li>
 </u>
